@@ -1,0 +1,303 @@
+body
+{
+
+	
+}
+
+ul {
+	
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FF5733;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+	font-weight:bold;
+	font-size:22px;
+    text-align: center;
+    padding:16px;
+    text-decoration: none;
+}
+.image
+{
+	    -webkit-filter: opacity(70%);
+		position:relative;
+}
+h2
+{
+	position:absolute;
+	top:2%;
+	left:24%;
+	font-size:38px;
+	color:WHITE;
+}
+
+
+.button {
+	display:inline-block;
+  top:76%;
+  left:30%;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: white;
+  background-color: #2874A6  ;
+ 
+  border-radius: 25px;
+  box-shadow: 0 9px #999;
+  position:absolute;
+  width:15%;
+  height:12%;
+}
+
+.button1 {
+  top:76%;
+  right:34%;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: white;
+  background-color: #2874A6  ;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 9px #999;
+  position:absolute;
+  width:15%;
+  height:12%;
+}
+
+.button,.button1:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+}
+.button,.button1:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.foot{
+	background-color:#B3B6B;
+	
+position:absolute;
+width:100%;
+text-align:center;
+color:white;
+font-size:24px;
+height:5%;
+}
+
+
+.menu{
+	margin-left:90px;
+}
+
+
+.menub
+{
+	background-color: #ffe066;
+	
+}
+
+
+.buttonmenu,.buttonmenu1,.buttonmenu2,.buttonmenu3,.buttonmenu4,.buttonmenu5,.buttonmenu6,.buttonmenu7,.buttonmenu8,.buttonmenu9,.buttonmenu10,.buttonmenu11,.buttonmenu12,.buttonmenu13,.buttonmenu14,.buttonmenu15,.buttonmenu16,.buttonmenu17,.buttonmenu18,.buttonmenu19,.buttonmenu20,.buttonmenu21,.buttonmenu22,.buttonmenu23
+{
+	
+	
+	background-color: #1a53ff;
+    border: none;
+    color: white;
+    position:absolute;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width:12%;
+    height:7%;
+    font-size:24px;
+    border-radius:10px;
+    cursor: pointer;
+}
+     
+	 .buttonmenu{ 
+	 top:67%;
+	left:15%;
+	 }
+	 .buttonmenu1{
+		 top:67%;
+		 left:45%;
+	 }
+	 .buttonmenu2{
+		 top:67%;
+		 left:75%;
+	 }
+	 
+	  .buttonmenu3{ 
+	 top:133%;
+	left:15%;
+	 }
+	 .buttonmenu4{
+		 top:133%;
+		 left:45%;
+	 }
+	 .buttonmenu5{
+		 top:133%;
+		 left:75%;
+	 }
+	  
+	  .buttonmenu6{ 
+	 top:198%;
+	left:15%;
+	 }
+	 .buttonmenu7{
+		 top:198%;
+		 left:45%;
+	 }
+	 .buttonmenu8{
+		 top:198%;
+		 left:75%;
+	 }
+	 
+	  
+	  .buttonmenu9{ 
+	 top:262%;
+	left:15%;
+	 }
+	 .buttonmenu10{
+		 top:262%;
+		 left:45%;
+	 }
+	 .buttonmenu11{
+		 top:262%;
+		 left:75%;
+	 }
+	 
+	  .buttonmenu15{ 
+	 top:391%;
+	left:15%;
+	 }
+	 .buttonmenu16{
+		 top:391%;
+		 left:45%;
+	 }
+	 .buttonmenu17{
+		 top:391%;
+		 left:75%;
+	 }
+		 
+	.buttonmenu18{ 
+	 top:455%;
+	left:15%;
+	 }
+	 .buttonmenu19{
+		 top:455%;
+		 left:45%;
+	 }
+	 .buttonmenu20{
+		 top:455%;
+		 left:75%;
+	 }
+	   .buttonmenu12{ 
+	 top:326%;
+	left:15%;
+	 }
+	 .buttonmenu13{
+		 top:326%;
+		 left:45%;
+	 }
+	 .buttonmenu14{
+		 top:326%;
+		 left:75%;
+	 }
+	 
+	 p{
+		 font-size:28px;
+		 font-weight:bold;
+		 padding-left:2%;
+	 }
+	input[type=text] ,[type=password]{
+    width: 30%;
+	margin-left:3%;
+    padding: 12px 20px;
+    margin-top:2%;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+	font-size:18px;
+}
+
+input[type=text]:focus {
+    border: 2px solid #555;
+} 
+
+input[type=password]:focus {
+    border: 2px solid #555;
+} 
+.sub
+	{
+		background-color: #008CBA;
+		margin-top:2%;
+		margin-left:7%;
+		color:white;
+		
+		font-size:20px;
+		padding: 12px 28px;
+		border: none;
+		color: white;
+	
+		
+		text-decoration: none;
+		display: inline-block;
+		
+		
+		cursor: pointer;
+	}
+	
+	.reset
+	{
+		background-color: #008CBA;
+		margin-top:2%;
+		margin-left:2%;
+		
+		background-color: #008CBA;
+		padding: 12px 28px;
+		color:white;
+		
+		font-size:20px;
+		
+		border: none;
+		color: white;
+		text-decoration: none;
+		display: inline-block;
+		cursor: pointer;
+	}
+	
+	.head
+	{
+		background-color:#FF5733;
+		display:inline;
+
+		width:100%;
+		margin-left: 37%;
+    
+    color: white;
+   
+ font-size:35px;
+		
+		
+	}
